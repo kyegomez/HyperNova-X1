@@ -1,42 +1,80 @@
-# HyperNova-X1
-First ever AI-designed rocket engine for long distance solar travel.
+
+# HyperNova X1 Rocket Engine Design
+
+**HyperNova X1** is a cutting-edge full-flow staged combustion rocket engine, designed for maximum efficiency, ease of manufacturing, and high thrust-to-weight ratio. Using advanced materials, additive manufacturing, and optimized methane/LOX propellant, the HyperNova X1 sets a new standard for rocket propulsion technology.
+
+---
+
+## 🚀 **Engine Overview**
+
+The **HyperNova X1** is engineered for optimal performance in space exploration, heavy-lift capabilities, and reusable rocket designs. Its design philosophy emphasizes a balance between cutting-edge performance and manufacturability, making it suitable for modern aerospace applications.
+
+### Key Features:
+- **Thrust**: 250,000 lbf
+- **Thrust-to-Weight Ratio**: >120:1
+- **Specific Impulse**: ~380 seconds (vacuum)
+- **Chamber Pressure**: 300 bar (30 MPa)
+- **Propellants**: Liquid Methane (CH₄) / Liquid Oxygen (LOX)
+- **Cooling System**: Regenerative Cooling
+
+---
+
+## ⚙️ **Engine Specifications**
+
+### 1. **Combustion Cycle**
+- **Type**: Full-Flow Staged Combustion
+- **Benefits**: Maximized fuel and oxidizer utilization, reduced wear on engine components, optimized for high efficiency.
+
+### 2. **Fuel and Oxidizer**
+- **Fuel**: Liquid Methane (CH₄)
+- **Oxidizer**: Liquid Oxygen (LOX)
+- **Advantages**: High specific impulse, cleaner combustion, cryogenic handling, and potential for in-situ resource utilization on Mars.
+
+### 3. **Materials**
+- **Combustion Chamber & Nozzle**: Niobium Alloy (C103)
+- **Turbopumps**: Titanium Alloy (Ti-6Al-4V)
+- **Injector Plate**: Inconel 718
+
+### 4. **Cooling System**
+- **Type**: Regenerative Cooling
+- **Details**: Cryogenic liquid methane circulates through channels in the chamber and nozzle, maintaining structural integrity and maximizing fuel efficiency.
+
+### 5. **Nozzle Design**
+- **Type**: Bell Nozzle (expansion-deflection optimization)
+- **Optional**: Aerospike Nozzle for altitude-compensating performance.
+
+---
+
+## 🛠️ **Manufacturing Process**
+
+The **HyperNova X1** is designed with ease of manufacturing in mind, leveraging modern production techniques:
+- **Additive Manufacturing (3D Printing)**: Complex components like injector plates and regenerative cooling channels are fabricated using Selective Laser Melting (SLM), reducing part count and enhancing reliability.
+- **Materials**: Niobium and titanium alloys are chosen for their high strength-to-weight ratio, thermal resistance, and suitability for additive manufacturing.
+
+---
+
+## 📈 **Performance and Efficiency**
+
+The **HyperNova X1** is optimized for high performance with an exceptional **thrust-to-weight ratio** of over 120:1, enabling it to lift heavier payloads with minimal weight. The **full-flow staged combustion cycle** maximizes the efficiency of methane and LOX, providing a high **specific impulse** of ~380 seconds in vacuum.
+
+---
+
+## 🔩 **Component Breakdown**
+
+### Engine Parts:
+1. **Combustion Chamber**: High-performance Niobium alloy chamber optimized for temperature and pressure resistance.
+2. **Turbopumps**: Lightweight and durable Titanium alloy turbopumps for efficient fuel and oxidizer pressurization.
+3. **Injector Plate**: Inconel 718 plate designed for precise fuel and oxidizer mixing.
+4. **Nozzle**: Bell nozzle or Aerospike nozzle depending on mission needs, built for optimized thrust performance at varying altitudes.
+
+---
+
+## 📦 **Use Cases**
+
+- **Heavy Lift Launch Vehicles**: Ideal for launching large payloads to low Earth orbit (LEO) and beyond.
+- **Reusable Rockets**: Durable and efficient design, making it suitable for multiple launches with minimal refurbishment.
+- **Deep Space Missions**: Methane/LOX combination allows for long-duration missions, including in-situ resource utilization on Mars.
+
+---
 
 
-## HyperNova-X1 V1
-To design the optimal rocket engine specification focusing on maximum efficiency, lowest weight-to-thrust ratio, and ease of design/manufacturing, we will explore the following areas:
-
-1. **Type of Engine**: A **full-flow staged combustion engine** is the most efficient type of rocket engine currently in use. It maximizes fuel and oxidizer use while reducing engine wear. This design is used by the most advanced rockets, such as SpaceX's Raptor engines.
-
-2. **Fuel and Oxidizer**: 
-   - **Fuel**: **Liquid Methane (CH₄)**. Methane is an excellent choice for multiple reasons: it provides high specific impulse, it's cleaner than kerosene, and its cryogenic properties are easier to handle than liquid hydrogen. Additionally, methane can be synthesized from CO₂, offering potential for in-situ resource utilization on missions to Mars.
-   - **Oxidizer**: **Liquid Oxygen (LOX)**. LOX is commonly used because it’s readily available, has high oxidizing properties, and pairs well with liquid methane.
-
-3. **Combustion Cycle**: **Full-Flow Staged Combustion (FFSC)** ensures maximum efficiency by utilizing both fuel-rich and oxidizer-rich preburners, feeding fully expanded gas into the combustion chamber. This approach minimizes engine wear and increases thrust-to-weight ratios by eliminating cavitation and optimizing combustion.
-
-4. **Material Selection**: The materials used in engine components should focus on high strength-to-weight ratios, thermal resistance, and ease of fabrication:
-   - **Combustion Chamber and Nozzle**: **Niobium alloys (e.g., C103)**. This material has high melting points and excellent thermal conductivity, enabling it to withstand high-temperature combustion and transfer heat efficiently. Its high-temperature resistance makes it suitable for liquid methane and LOX combustion.
-   - **Turbopumps**: **Titanium alloys** (e.g., Ti-6Al-4V) for high-strength, low-density parts in the turbopumps. Titanium provides excellent corrosion resistance and can endure extreme pressure in rocket engine environments.
-   - **Injector Plate**: **Inconel (Inconel 718)**. Inconel is a nickel-based superalloy that performs well under high stress and temperatures, making it ideal for injector plates where combustion rates are highest.
-
-5. **Engine Cooling**: **Regenerative Cooling** should be used, where the cryogenic liquid methane is routed through channels in the walls of the combustion chamber and nozzle, absorbing heat before entering the combustion chamber. This maximizes engine efficiency by pre-heating the fuel while maintaining structural integrity.
-
-6. **Nozzle Design**: **Aerospike Nozzle** or **Bell Nozzle (optimized with expansion-deflection)**. Aerospike nozzles provide high efficiency across a range of altitudes, whereas bell nozzles with proper expansion-deflection can be easier to manufacture and still provide efficient performance.
-
-7. **Additive Manufacturing**: Use **3D printing** (additive manufacturing) techniques for rapid production and simplified geometry. Complex components like injector plates and regenerative cooling channels can be integrated into a single piece using **Selective Laser Melting (SLM)** techniques, reducing part counts and increasing reliability.
-
-### Engine Specification:
-- **Thrust**: 250,000 lbf (or tailored based on use case, adjustable for larger payloads).
-- **Thrust-to-weight ratio**: Aim for **>120:1** using light materials like titanium and niobium alloys.
-- **Chamber pressure**: 300 bar (approximately 30 MPa) for maximum efficiency.
-- **Specific impulse**: ~380 seconds (vacuum) using Liquid Methane/LOX.
-- **Weight**: Approx. **1.5-2 tons** depending on final component designs and materials.
-
-### Summary of Key Features:
-1. **Engine Cycle**: Full-flow staged combustion for maximum efficiency.
-2. **Fuel/Oxidizer**: Methane (CH₄) and Liquid Oxygen (LOX).
-3. **Materials**: Niobium alloys for combustion chambers/nozzles, titanium alloys for turbopumps, Inconel for injector plates.
-4. **Cooling**: Regenerative cooling to optimize efficiency and thermal management.
-5. **Manufacturing**: Additive manufacturing (3D printing) for component integration and rapid production.
-
-### Conclusion:
-This rocket engine design combines high performance and efficiency with simplicity in manufacturing. Leveraging full-flow staged combustion, methane-LOX fuel, and advanced materials, it ensures high thrust-to-weight ratio while maintaining durability. The use of additive manufacturing further enhances its ease of production and reliability.
